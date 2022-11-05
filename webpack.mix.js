@@ -12,4 +12,8 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css');
+
+// Failed to load resource: the server responded with a status of 404 (Not Found)
+http://localhost:8000/js/popper.js.map
+mix.sourceMaps().js('node_modules/popper.js/dist/popper.js', 'public/js').sourceMaps();
