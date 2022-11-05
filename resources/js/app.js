@@ -12,6 +12,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 import router from "./router";
+import store from "./store";
 
 window.Vue = Vue;
 Vue.use(VueRouter);
@@ -37,5 +38,6 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
-    router
+    router,
+    store
 });
