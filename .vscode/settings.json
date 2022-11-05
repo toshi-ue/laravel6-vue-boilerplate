@@ -1,3 +1,11 @@
 {
-  "dotenv.enableAutocloaking": false
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true, // if you would like to enable blade format
+    "[blade]": {
+        "editor.autoClosingBrackets": "always"
+    },
+    "emmet.includeLanguages": {
+        "blade": "html"
+    },
+    "dotenv.enableAutocloaking": false,
 }
