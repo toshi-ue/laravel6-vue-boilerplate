@@ -15,17 +15,6 @@ This is my boilerplate of Laravel 6.20.26( with MySQL 5.7).
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
  -->
-only BootStrap4(not designed login and register page)
-[Branch at main(with BootStrap4)](https://github.com/toshi-ue/laravel-6-template)
-
-only BootStrap4(not designed login and register page)
-[Branch at main(with BootStrap4)](https://github.com/toshi-ue/laravel-6-template)
-
-Vue.js2 with BootStrap4
-[Branch at with-vue.js2](https://github.com/toshi-ue/laravel-6-template/tree/with-vue.js2)
-
-React.js16.2 with BootStrap4
-[Branch at with-react.js16.2](https://github.com/toshi-ue/laravel-6-template/tree/with-react.js16.2)
 
 <!-- ## Preinstalled Packages
 
